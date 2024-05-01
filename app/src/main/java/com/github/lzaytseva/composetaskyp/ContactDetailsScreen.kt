@@ -40,9 +40,13 @@ fun ContactDetails(contact: Contact) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         ProfilePic(contact = contact)
+        
         Spacer(modifier = Modifier.height(16.dp))
+        
         HeaderName(contact = contact)
+        
         Spacer(modifier = Modifier.height(32.dp))
+        
         ContactExtraInfo(contact = contact)
     }
 }
