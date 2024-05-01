@@ -60,9 +60,7 @@ fun ProfilePic(contact: Contact) {
 
 @Composable
 fun CircleInitials(initials: String) {
-    Box(
-        contentAlignment = Alignment.Center
-    ) {
+    Box(contentAlignment = Alignment.Center) {
         Icon(
             modifier = Modifier.size(80.dp),
             painter = painterResource(id = R.drawable.ic_circle),
